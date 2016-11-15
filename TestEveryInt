@@ -1,0 +1,26 @@
+
+public class TestEveryInt {
+
+	public static void main(String[] args) {
+		
+		int a[] = {1, 7, 3, 4};
+		
+		 int newarr[] = new int[4];
+		 
+		  for(int i =0; i<a.length; i++){
+
+		  	int index = i;
+		 	int sum = 0;
+
+		  	for(int j =0; j<a.length; j++){
+		  		if(i==j){
+		  			continue;
+		  		}
+
+		  		sum = sum * j;
+		  		newarr[i] = sum;
+		  		System.out.println(newarr[i]);
+		  	}
+		  }
+	}
+}

@@ -4,11 +4,8 @@ public class TestEveryInt {
 	public static void main(String[] args) {
 		
 		int a[] = {1, 7, 3, 4};
-		
 		 int newarr[] = new int[4];
-		 
 		  for(int i =0; i<a.length; i++){
-
 		  	int index = a[i];
 		 	int sum = 0;
 
@@ -17,7 +14,7 @@ public class TestEveryInt {
 		  			continue;
 		  		}
 
-		  		sum = sum * a[j];
+		  		sum = index * a[j];
 		  		newarr[i] = sum;
 		  		System.out.println(newarr[i]);
 		  	}
